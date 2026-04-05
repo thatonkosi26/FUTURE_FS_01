@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THATO NKOSI // CYBERCORP</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-text">INITIALIZING SYSTEM</div>
+  <div class="loader-bar-track"><div class="loader-bar-fill"></div></div>
+  <div class="loader-percent" id="loader-percent">0%</div>
+</div>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursor-trail"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">THATO NKOSI</div>
+  <ul class="nav-links">
+    <li><a href="#about">PROFILE</a></li>
+    <li><a href="#skills">SKILLS</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#experience">HISTORY</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:20px;">
+    <label class="theme-toggle" title="Toggle theme" aria-label="Toggle light/dark mode">
+      <input type="checkbox" id="theme-checkbox">
+      <div class="toggle-track">
+        <span class="toggle-icon-dark">◑</span>
+        <span class="toggle-icon-light">☀</span>
+      </div>
+      <div class="toggle-thumb"></div>
+    </label>
+    <div class="nav-status">
+      <div class="status-dot"></div>
+      UNIT ONLINE
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg" id="hero-bg"></div>
+  <div class="hero-gradient"></div>
+  <div class="hero-grid"></div>
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-br"></div>
+
+  <div class="hero-content">
+    <div class="hero-tag">WITS UNIVERSITY // BIG DATA ANALYTICS // ZA-2026</div>
+    <h1 class="hero-name">
+      <span class="glitch" data-text="THATO">THATO</span>
+      <span class="accent">NKOSI</span>
+    </h1>
+    <div class="hero-title">// ASPIRING DATA SCIENTIST &amp; SOFTWARE ENGINEER</div>
+    <p class="hero-desc">
+      BSc Computer Science graduate pursuing BScHons in Big Data Analytics at Wits. 
+      Bridging rigorous mathematical foundations with real-world computational solutions — from Johannesburg, ZA.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">VIEW PROJECTS</a>
+      <a href="#contact" class="btn-outline">ESTABLISH LINK</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">6</div>
+        <div class="stat-label">[NSC] DISTINCTIONS</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">2</div>
+        <div class="stat-label">DEGREES</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">1+</div>
+        <div class="stat-label">YEARS TUTORING</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="id-ticker">UNIT_ID: TN-2026 // WITS UNIVERSITY // DATA SCIENCE // SOFTWARE ENG // JOHANNESBURG-ZA</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <div class="section-num">// 01</div>
+    <h2 class="section-title">UNIT PROFILE</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>
+        I am <span>Thato Nkosi</span>, a BSc Computer Science graduate currently pursuing a 
+        <span>BScHons in Big Data Analytics</span> at the University of the Witwatersrand, Johannesburg.
+      </p>
+      <p>
+        My research focuses on <span>evaluating Time-Series Foundation Models for Early Warning in Intensive Care Units</span> — applying machine learning to high-stakes, real-world medical systems.
+      </p>
+      <p>
+        I combine strong mathematical foundations — linear algebra, probability, numerical methods — with hands-on software engineering to build <span>efficient, scalable, and analytically rigorous</span> computational solutions.
+      </p>
+      <div class="about-specs">
+        <div class="spec-row">
+          <span class="spec-key">DESIGNATION</span>
+          <span class="spec-val">Thato Nkosi</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-key">BASE</span>
+          <span class="spec-val">Johannesburg, ZA</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-key">CLASSIFICATION</span>
+          <span class="spec-val">Data Scientist // Software Engineer</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-key">INSTITUTION</span>
+          <span class="spec-val">Wits University</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-key">SPECIALIZATION</span>
+          <span class="spec-val">Big Data // ML // Scientific Computing</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-key">STATUS</span>
+          <span class="spec-val">OPEN TO OPPORTUNITIES</span>
+        </div>
+      </div>
+    </div>
+    <div class="id-card reveal">
+      <div class="id-photo-placeholder">
+        <img src="./images/thato_cyber.png" alt="Thato Nkosi">
+      </div>
+      <div style="font-family:'Share Tech Mono',monospace; font-size:0.65rem; letter-spacing:3px; color:rgba(0,245,255,0.4);">
+        UNIT DESIGNATION
+      </div>
+      <div style="font-family:'Orbitron',monospace; font-size:1.1rem; font-weight:700; margin:8px 0;">
+        THATO NKOSI
+      </div>
+      <div style="font-family:'Share Tech Mono',monospace; font-size:0.7rem; letter-spacing:2px; color:var(--text-faint);">
+        CYBERCORP // ZA-2026-TN
+      </div>
+      <div class="id-barcode"></div>
+      <div style="font-family:'Share Tech Mono',monospace; font-size:0.55rem; letter-spacing:1px; color:var(--cyan); opacity:0.3; margin-top:8px; text-align:center;">
+        2026-04-05 // CLEARANCE: ALPHA // ACTIVE
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <div class="section-num">// 02</div>
+    <h2 class="section-title">SKILL MATRIX</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">⬡</span>
+      <div class="skill-name">PROGRAMMING</div>
+      <div class="skill-desc">Fluent in multiple languages with strong OOP principles, data structures and algorithm design.</div>
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">PYTHON</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.92"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">JAVA</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">C++</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.78"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">SQL</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.82"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-card red-accent reveal">
+      <span class="skill-icon">◈</span>
+      <div class="skill-name">DATA &amp; ANALYTICS</div>
+      <div class="skill-desc">End-to-end data pipelines — from raw cleaning and EDA through to statistical modelling and optimisation.</div>
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">EDA</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.9"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">STAT MODEL</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.87"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">LINEAR ALG</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.92"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">⬟</span>
+      <div class="skill-name">SCIENTIFIC COMPUTING</div>
+      <div class="skill-desc">Numerical methods, mathematical modelling and high-performance computational problem solving.</div>
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">NUM METHODS</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.9"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">OPTIMISATION</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">MODELLING</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.88"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-card red-accent reveal">
+      <span class="skill-icon">◉</span>
+      <div class="skill-name">BIG DATA &amp; DATABASES</div>
+      <div class="skill-desc">Relational database design, SQL querying, data normalisation and large-scale structured data management.</div>
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">SQL / RDBMS</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">DATA MODEL</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.82"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">LARGE SCALE</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.75"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">⬢</span>
+      <div class="skill-name">SYSTEMS &amp; COMPUTING</div>
+      <div class="skill-desc">Deep knowledge of operating systems, concurrency, memory management, computer architecture and performance analysis.</div>
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">OS CONCEPTS</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.83"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">CONCURRENCY</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.78"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-card red-accent reveal">
+      <span class="skill-icon">◆</span>
+      <div class="skill-name">SOFTWARE ENGINEERING</div>
+      <div class="skill-desc">Algorithm design, Big-O complexity analysis, debugging, version control with Git, software testing and system design.</div>
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">ALGORITHMS</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.9"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">GIT</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.88"></div></div>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-bar-label">SYS DESIGN</span>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.8"></div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <div class="section-num">// 03</div>
+    <h2 class="section-title">PROJECT LOG</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card large reveal">
+      <div class="bg-text">01</div>
+      <a href="#" class="project-link">↗</a>
+      <div class="project-num">PROJECT_01 // HONOURS RESEARCH</div>
+      <div class="project-tag">
+        <span>ML</span><span>//</span><span>TIME-SERIES</span><span>//</span><span>HEALTHCARE</span>
+      </div>
+      <h3 class="project-title">ICU EARLY WARNING<br>SYSTEM</h3>
+      <p class="project-desc">Honours research project evaluating Time-Series Foundation Models for Early Warning in Intensive Care Units. Applying state-of-the-art ML architectures to critical clinical data streams to predict patient deterioration before it occurs.</p>
+      <div class="project-tech">
+        <span class="tech-tag">PYTHON</span>
+        <span class="tech-tag">TIME-SERIES</span>
+        <span class="tech-tag">FOUNDATION MODELS</span>
+        <span class="tech-tag">STATISTICAL ML</span>
+      </div>
+    </div>
+
+    <div class="project-card medium red reveal">
+      <a href="#" class="project-link">↗</a>
+      <div class="project-num">PROJECT_02</div>
+      <div class="project-tag"><span>WEB DEV</span><span>//</span><span>INTERNSHIP</span></div>
+      <h3 class="project-title">FULL STACK WEB<br>DEVELOPMENT</h3>
+      <p class="project-desc">Building and deploying full stack web applications as part of the Future Interns internship programme. Developing end-to-end solutions across frontend interfaces and backend systems.</p>
+      <div class="project-tech">
+        <span class="tech-tag">HTML/CSS</span>
+        <span class="tech-tag">JAVASCRIPT</span>
+        <span class="tech-tag">FULL STACK</span>
+      </div>
+    </div>
+
+    <div class="project-card half reveal">
+      <a href="#" class="project-link">↗</a>
+      <div class="project-num">PROJECT_03</div>
+      <div class="project-tag"><span>DATA</span><span>//</span><span>ANALYTICS</span></div>
+      <h3 class="project-title">EXPLORATORY DATA<br>ANALYSIS SUITE</h3>
+      <p class="project-desc">Comprehensive EDA pipelines built in Python for cleaning, preprocessing and visualising complex datasets — applying statistical modelling and probability techniques to extract actionable insights.</p>
+      <div class="project-tech">
+        <span class="tech-tag">PYTHON</span>
+        <span class="tech-tag">PANDAS</span>
+        <span class="tech-tag">MATPLOTLIB</span>
+      </div>
+    </div>
+
+    <div class="project-card half red reveal">
+      <a href="#" class="project-link">↗</a>
+      <div class="project-num">PROJECT_04</div>
+      <div class="project-tag"><span>ALGORITHMS</span><span>//</span><span>SYSTEMS</span></div>
+      <h3 class="project-title">ALGORITHM &amp; DATA<br>STRUCTURES LIBRARY</h3>
+      <p class="project-desc">Custom implementations of core algorithms and data structures in Java and C++ — covering sorting, graph traversal, dynamic programming and complexity-optimised solutions.</p>
+      <div class="project-tech">
+        <span class="tech-tag">JAVA</span>
+        <span class="tech-tag">C++</span>
+        <span class="tech-tag">BIG-O ANALYSIS</span>
+      </div>
+    </div>
+
+    <div class="project-card wide reveal">
+      <a href="#" class="project-link">↗</a>
+      <div class="project-num">PROJECT_05 // ACADEMIC</div>
+      <div class="project-tag">
+        <span>SCIENTIFIC COMPUTING</span><span>//</span><span>NUMERICAL METHODS</span><span>//</span><span>MATHEMATICS</span>
+      </div>
+      <h3 class="project-title">NUMERICAL METHODS &amp; MATHEMATICAL MODELLING ENGINE</h3>
+      <p class="project-desc">Applied computational tools built for the Mathematical Methods and Modelling modules at Wits. Implements numerical solvers, linear algebra routines and optimisation algorithms — directly supporting tutorial sessions for undergraduate students in Scientific Computing I &amp; II.</p>
+      <div class="project-tech">
+        <span class="tech-tag">PYTHON</span>
+        <span class="tech-tag">NUMPY</span>
+        <span class="tech-tag">SCIPY</span>
+        <span class="tech-tag">LINEAR ALGEBRA</span>
+        <span class="tech-tag">ODE SOLVERS</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-header reveal">
+    <div class="section-num">// 04</div>
+    <h2 class="section-title">EXPERIENCE &amp; EDUCATION</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="timeline">
+
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">04 APR 2026 — 04 MAY 2026</div>
+      <div class="timeline-role">FULL STACK WEB DEVELOPMENT INTERN</div>
+      <div class="timeline-company">FUTURE INTERNS // REMOTE</div>
+      <p class="timeline-desc">Participating in a structured full stack web development internship programme. Building and deploying real-world web applications, gaining hands-on experience across both frontend and backend technologies within an industry environment.</p>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">02/2025 — PRESENT</div>
+      <div class="timeline-role">TUTOR — COMPUTATIONAL &amp; APPLIED MATHEMATICS</div>
+      <div class="timeline-company">UNIVERSITY OF THE WITWATERSRAND // JOHANNESBURG, ZA</div>
+      <p class="timeline-desc">Conducting tutorial sessions for Mathematical Methods and Modelling I &amp; II and Scientific Computing I &amp; II. Assisting students with numerical methods, algorithmic implementation, discrete mathematics, linear algebra, probability and applied mathematics concepts. Providing targeted academic support to strengthen students' mathematical and computational problem-solving skills.</p>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2026 — PRESENT</div>
+      <div class="timeline-role">BSCHONS BIG DATA ANALYTICS // HONOURS RESEARCHER</div>
+      <div class="timeline-company">UNIVERSITY OF THE WITWATERSRAND // JOHANNESBURG, ZA</div>
+      <p class="timeline-desc">Pursuing Honours in Big Data Analytics with an active research project focused on evaluating Time-Series Foundation Models for Early Warning in Intensive Care Units — applying advanced ML techniques to high-stakes medical data.</p>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">02/2026 — PRESENT</div>
+      <div class="timeline-role">MEMBER — DATA SCIENCE INTEREST GROUP</div>
+      <div class="timeline-company">UNIVERSITY OF THE WITWATERSRAND // JOHANNESBURG, ZA</div>
+      <p class="timeline-desc">Participating in academic discussions on Data Science, Machine Learning and Big Data technologies. Engaging in collaborative learning and knowledge-sharing initiatives, and staying current with emerging trends in analytics and data-driven technologies.</p>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2023 — 2025</div>
+      <div class="timeline-role">BSC COMPUTER SCIENCE</div>
+      <div class="timeline-company">UNIVERSITY OF THE WITWATERSRAND // JOHANNESBURG, ZA</div>
+      <p class="timeline-desc">Developed strong foundations in algorithms, data structures and computational complexity. Applied discrete mathematics, linear algebra and probability to computational problems. Designed and implemented software systems using OOP, database principles and operating systems concepts.</p>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2018 — 2022</div>
+      <div class="timeline-role">NATIONAL SENIOR CERTIFICATE</div>
+      <div class="timeline-company">BUHLEBEMFUNDO SECONDARY SCHOOL // BRAKPAN, ZA</div>
+      <p class="timeline-desc">Obtained 6 distinctions in the 2022 NSC examinations. Recognised for academic excellence at the Gauteng East District Awards 2022 — establishing a strong foundation of rigorous analytical thinking.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-tagline reveal">// ESTABLISH UPLINK</div>
+    <h2 class="contact-heading reveal">
+      READY TO<br><span>COLLABORATE?</span>
+    </h2>
+    <p class="contact-sub reveal">
+      Currently interning at Future Interns and open to graduate opportunities in Data Science and Software Engineering. 
+      Whether it's a research collaboration, a graduate role, or just a conversation about data — the uplink is open.
+    </p>
+    <div class="contact-links reveal">
+      <a class="contact-link"><span>✉ thato2005nkos@gmail.com</span></a>
+      <a class="contact-link"><span>☏ +27 68 158 1984</span></a>
+      <a href="https://www.linkedin.com/in/thato-nkosi-0a5530346/" class="contact-link"><span>⬡ LINKEDIN</span></a>
+      <a href="https://github.com/thatonkosi26" class="contact-link"><span>◈ GITHUB</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">© 2026 THATO NKOSI // ALL RIGHTS RESERVED // CYBERCORP ZA</div>
+  <div class="footer-id">UNIT_ID: TN-2026-ALPHA // BUILD: v2.6.0</div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  // ── THEME TOGGLE ────────────────────────────────────
+  const themeCheckbox = document.getElementById('theme-checkbox');
+  const html = document.documentElement;
+
+  // Restore saved preference
+  const savedTheme = localStorage.getItem('portfolio-theme');
+  if (savedTheme === 'light') {
+    html.classList.add('light');
+    themeCheckbox.checked = true;
+  }
+
+  themeCheckbox.addEventListener('change', () => {
+    // Flash effect on switch
+    const flash = document.createElement('div');
+    flash.style.cssText = `
+      position:fixed;inset:0;z-index:9990;pointer-events:none;
+      background:${themeCheckbox.checked ? '#d0d8e8' : '#020408'};
+      opacity:0;transition:opacity 0.15s;
+    `;
+    document.body.appendChild(flash);
+    requestAnimationFrame(() => {
+      flash.style.opacity = '0.35';
+      setTimeout(() => {
+        if (themeCheckbox.checked) {
+          html.classList.add('light');
+          localStorage.setItem('portfolio-theme', 'light');
+        } else {
+          html.classList.remove('light');
+          localStorage.setItem('portfolio-theme', 'dark');
+        }
+        flash.style.opacity = '0';
+        setTimeout(() => flash.remove(), 200);
+      }, 120);
+    });
+  });
+
+  // ── LOADER ──────────────────────────────────────────────
+  let pct = 0;
+  const pctEl = document.getElementById('loader-percent');
+  const loaderInterval = setInterval(() => {
+    pct = Math.min(pct + Math.random() * 12, 99);
+    pctEl.textContent = Math.floor(pct) + '%';
+  }, 120);
+
+  window.addEventListener('load', () => {
+    clearInterval(loaderInterval);
+    pctEl.textContent = '100%';
+    setTimeout(() => {
+      document.getElementById('loader').classList.add('done');
+    }, 600);
+  });
+
+  // Fallback
+  setTimeout(() => {
+    document.getElementById('loader').classList.add('done');
+  }, 2500);
+
+  // ── CURSOR ──────────────────────────────────────────────
+  const cursor = document.getElementById('cursor');
+  const trail = document.getElementById('cursor-trail');
+  let mx = 0, my = 0, tx = 0, ty = 0;
+
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    cursor.style.transform = `translate(${mx - 6}px, ${my - 6}px)`;
+  });
+
+  function animTrail() {
+    tx += (mx - tx) * 0.12;
+    ty += (my - ty) * 0.12;
+    trail.style.transform = `translate(${tx - 16}px, ${ty - 16}px)`;
+    requestAnimationFrame(animTrail);
+  }
+  animTrail();
+
+  document.addEventListener('mousedown', () => {
+    cursor.style.transform += ' scale(1.8)';
+    cursor.style.background = 'var(--cyan)';
+  });
+  document.addEventListener('mouseup', () => {
+    cursor.style.background = 'transparent';
+  });
+
+  // ── SCROLL REVEAL ───────────────────────────────────────
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 60);
+        // Trigger skill bars
+        entry.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+          const w = parseFloat(bar.style.getPropertyValue('--w') || 1);
+          bar.style.width = (w * 100) + '%';
+        });
+        entry.target.classList.add('animated');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  reveals.forEach(el => observer.observe(el));
+
+  // ── PARALLAX HERO BG ────────────────────────────────────
+  const heroBg = document.getElementById('hero-bg');
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (heroBg) heroBg.style.transform = `scale(1.05) translateY(${y * 0.3}px)`;
+  }, { passive: true });
+
+  // ── GLITCH RANDOM ───────────────────────────────────────
+  function randomGlitch() {
+    const glitches = document.querySelectorAll('.glitch');
+    glitches.forEach(el => {
+      if (Math.random() < 0.3) {
+        el.style.transform = `translateX(${(Math.random()-0.5)*6}px)`;
+        setTimeout(() => el.style.transform = '', 80);
+      }
+    });
+    setTimeout(randomGlitch, 800 + Math.random() * 1500);
+  }
+  randomGlitch();
+
+  // ── COUNTER ANIMATION ───────────────────────────────────
+  function animCounter(el, target, dur) {
+    let start = 0;
+    const step = target / (dur / 16);
+    const timer = setInterval(() => {
+      start += step;
+      if (start >= target) { el.textContent = target + (el.dataset.suffix || ''); clearInterval(timer); }
+      else el.textContent = Math.floor(start) + (el.dataset.suffix || '');
+    }, 16);
+  }
+
+  // Observe stats
+  const statNums = document.querySelectorAll('.stat-num');
+  const statObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const text = e.target.textContent;
+        const num = parseInt(text);
+        const suf = text.replace(/\d/g, '');
+        e.target.dataset.suffix = suf;
+        animCounter(e.target, num, 1200);
+        statObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  statNums.forEach(n => statObs.observe(n));
+
+  // ── CARD TILT ───────────────────────────────────────────
+  document.querySelectorAll('.project-card, .skill-card').forEach(card => {
+    card.addEventListener('mousemove', e => {
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - 0.5;
+      const y = (e.clientY - r.top) / r.height - 0.5;
+      card.style.transform = `perspective(800px) rotateY(${x * 6}deg) rotateX(${-y * 6}deg) translateY(-6px)`;
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+    });
+  });
+</script>
+</body>
+</html>
