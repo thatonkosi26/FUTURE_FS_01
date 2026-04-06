@@ -60,8 +60,8 @@
   .page-subtitle{font-family:'Share Tech Mono',monospace;font-size:0.85rem;letter-spacing:3px;color:var(--text-muted);margin-bottom:12px}
   .page-desc{font-size:1.1rem;color:var(--text-body);line-height:1.7;max-width:600px}
   .page-divider{width:80px;height:2px;background:var(--accent);box-shadow:var(--accent-glow);margin:32px 0}
-  .add-project-btn{font-family:'Orbitron',monospace;font-size:0.7rem;font-weight:700;letter-spacing:3px;padding:14px 32px;border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:none;clip-path:polygon(10px 0%,100% 0%,calc(100% - 10px) 100%,0% 100%);transition:all 0.3s;margin-top:8px;display:inline-block}
-  .add-project-btn:hover{background:var(--accent);color:var(--darker);box-shadow:var(--accent-glow)}
+  .project-count { font-family: 'Share Tech Mono', monospace; font-size: 0.65rem; letter-spacing: 3px; color: var(--text-faint); }
+  .project-count span { color: var(--accent); font-size: 1rem; font-family: 'Orbitron', monospace; font-weight: 900; }
   .projects-section{padding:0 48px 120px}
   .projects-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:28px}
   .proj-card{background:var(--gray);border:1px solid var(--border-subtle);position:relative;overflow:hidden;transition:all 0.4s cubic-bezier(0.22,1,0.36,1);cursor:none}
@@ -121,7 +121,7 @@
   <div class="page-subtitle">// EDA // STATISTICAL MODELLING // DATA VISUALISATION</div>
   <p class="page-desc">Data analysis projects applying Python-based pipelines for cleaning, preprocessing and exploring complex datasets. Leveraging statistical modelling, probability theory and visualisation to extract meaningful insights from raw data.</p>
   <div class="page-divider"></div>
-  <button class="add-project-btn" onclick="addCard()">+ ADD NEW PROJECT</button>
+  <div class="project-count">ACTIVE PROJECTS <span>00</span></div>
 </div>
 
 <div class="projects-section">
@@ -130,21 +130,19 @@
     <div class="proj-card reveal">
       <a href="#" class="card-corner">↗</a>
       <div class="upload-zone" id="zone-1">
-        <input type="file" accept="image/*" class="upload-input" onchange="handleImage(this,'zone-1')">
         <div class="upload-placeholder">
           <div class="upload-icon">◈</div>
-          <div class="upload-text">CLICK TO UPLOAD IMAGE</div>
+          <div class="upload-text">COMING SOON</div>
         </div>
-        <div class="upload-hover-label">↑ UPLOAD SCREENSHOT</div>
       </div>
       <div class="card-body">
-        <div class="card-num">PROJECT_01</div>
+        <div class="card-num">PROJECT_00</div>
         <div class="card-tags">
           <span class="card-tag">EDA</span>
           <span class="card-tag">VISUALISATION</span>
           <span class="card-tag">STATISTICS</span>
         </div>
-        <h3 class="card-title">Exploratory Data Analysis Suite</h3>
+        <h3 class="card-title">Coming Soon...</h3>
         <p class="card-desc">Comprehensive EDA pipelines built in Python — cleaning, preprocessing and visualising complex datasets using statistical modelling and probability techniques to extract actionable insights from raw data.</p>
         <div class="card-tech">
           <span class="tech-pill">PYTHON</span>

@@ -25,10 +25,10 @@
   <div class="nav-logo">THATO NKOSI</div>
   <ul class="nav-links">
     <li><a href="#about">PROFILE</a></li>
-    <li><a href="#skills">SYSTEMS</a></li>
-    <li><a href="#projects">MISSIONS</a></li>
+    <li><a href="#skills">SKILLS</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
     <li><a href="#experience">HISTORY</a></li>
-    <li><a href="#contact">UPLINK</a></li>
+    <li><a href="#contact">CONTACT</a></li>
   </ul>
   <div style="display:flex;align-items:center;gap:20px;">
     <label class="theme-toggle" title="Toggle theme" aria-label="Toggle light/dark mode">
@@ -126,7 +126,7 @@
         </div>
         <div class="spec-row">
           <span class="spec-key">SPECIALIZATION</span>
-          <span class="spec-val">Big Data // ML // Scientific Computing</span>
+          <span class="spec-val">Big Data // Software Solutions</span>
         </div>
         <div class="spec-row">
           <span class="spec-key">STATUS</span>
@@ -157,134 +157,136 @@
 
 <!-- SKILLS -->
 <section id="skills">
-  <div class="section-header reveal">
+  <div class="section-header reveal" style="padding:0 48px;margin-bottom:0;">
     <div class="section-num">// 02</div>
-    <h2 class="section-title">SKILL MATRIX</h2>
+    <h2 class="section-title">COMBAT SKILLS</h2>
     <div class="section-line"></div>
   </div>
-  <div class="skills-grid">
 
-    <div class="skill-card reveal">
-      <span class="skill-icon">⬡</span>
-      <div class="skill-name">PROGRAMMING</div>
-      <div class="skill-desc">Fluent in multiple languages with strong OOP principles, data structures and algorithm design.</div>
-      <div class="skill-bar-wrap">
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">PYTHON</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.92"></div></div>
+  <!-- STACKED DECK STAGE -->
+  <div class="skills-viewport" id="skills-viewport">
+    <div class="skills-track" id="skills-track">
+
+      <!-- ── PYTHON ── -->
+      <div class="skill-item">
+        <div class="skill-frame">
+          <img src="./images/python.png" alt="Python" id="skill-img-python"
+               onerror="this.style.display='none';document.getElementById('skill-ph-python').style.display='flex';">
+          <div class="skill-img-placeholder" id="skill-ph-python" style="display:none;">
+            <div class="skill-img-placeholder-icon">⬟</div>
+            <div class="skill-img-placeholder-text">ADD IMAGE</div>
+          </div>
         </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">JAVA</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">C++</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.78"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">SQL</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.82"></div></div>
-        </div>
+        <div class="skill-rarity"></div>
+        <div class="skill-label">PYTHON</div>
+        <div class="skill-selector"></div>
       </div>
+
+      <!-- ── JAVA ── -->
+      <div class="skill-item">
+        <div class="skill-frame">
+          <img src="./images/java.png" alt="Java" id="skill-img-java"
+               onerror="this.style.display='none';document.getElementById('skill-ph-java').style.display='flex';">
+          <div class="skill-img-placeholder" id="skill-ph-java" style="display:none;">
+            <div class="skill-img-placeholder-icon">⬟</div>
+            <div class="skill-img-placeholder-text">ADD IMAGE</div>
+          </div>
+        </div>
+        <div class="skill-rarity"></div>
+        <div class="skill-label">JAVA</div>
+        <div class="skill-selector"></div>
+      </div>
+
+      <!-- ── C++ ── -->
+      <div class="skill-item">
+        <div class="skill-frame">
+          <img src="./images/c++.png" alt="C++" id="skill-img-cpp"
+               onerror="this.style.display='none';document.getElementById('skill-ph-cpp').style.display='flex';">
+          <div class="skill-img-placeholder" id="skill-ph-cpp" style="display:none;">
+            <div class="skill-img-placeholder-icon">⬟</div>
+            <div class="skill-img-placeholder-text">ADD IMAGE</div>
+          </div>
+        </div>
+        <div class="skill-rarity"></div>
+        <div class="skill-label">C++</div>
+        <div class="skill-selector"></div>
+      </div>
+
+      <!-- ── SQL ── -->
+      <div class="skill-item">
+        <div class="skill-frame">
+          <img src="./images/sql.png" alt="SQL" id="skill-img-sql"
+               onerror="this.style.display='none';document.getElementById('skill-ph-sql').style.display='flex';">
+          <div class="skill-img-placeholder" id="skill-ph-sql" style="display:none;">
+            <div class="skill-img-placeholder-icon">⬟</div>
+            <div class="skill-img-placeholder-text">ADD IMAGE</div>
+          </div>
+        </div>
+        <div class="skill-rarity"></div>
+        <div class="skill-label">SQL</div>
+        <div class="skill-selector"></div>
+      </div>
+
+      <!-- ── JAVASCRIPT ── -->
+      <div class="skill-item">
+        <div class="skill-frame">
+          <img src="./images/js.png" alt="JavaScript" id="skill-img-js"
+               onerror="this.style.display='none';document.getElementById('skill-ph-js').style.display='flex';">
+          <div class="skill-img-placeholder" id="skill-ph-js" style="display:none;">
+            <div class="skill-img-placeholder-icon">⬟</div>
+            <div class="skill-img-placeholder-text">ADD IMAGE</div>
+          </div>
+        </div>
+        <div class="skill-rarity"></div>
+        <div class="skill-label">JAVASCRIPT</div>
+        <div class="skill-selector"></div>
+      </div>
+
+      <!-- ── HTML/CSS ── -->
+      <div class="skill-item">
+        <div class="skill-frame">
+          <img src="./images/html-css.png" alt="HTML CSS" id="skill-img-html"
+               onerror="this.style.display='none';document.getElementById('skill-ph-html').style.display='flex';">
+          <div class="skill-img-placeholder" id="skill-ph-html" style="display:none;">
+            <div class="skill-img-placeholder-icon">⬟</div>
+            <div class="skill-img-placeholder-text">ADD IMAGE</div>
+          </div>
+        </div>
+        <div class="skill-rarity"></div>
+        <div class="skill-label">HTML / CSS</div>
+        <div class="skill-selector"></div>
+      </div>
+
+      <!-- ── GIT ── -->
+      <div class="skill-item">
+        <div class="skill-frame">
+          <img src="./images/git.png" alt="Git" id="skill-img-git"
+               onerror="this.style.display='none';document.getElementById('skill-ph-git').style.display='flex';">
+          <div class="skill-img-placeholder" id="skill-ph-git" style="display:none;">
+            <div class="skill-img-placeholder-icon">⬟</div>
+            <div class="skill-img-placeholder-text">ADD IMAGE</div>
+          </div>
+        </div>
+        <div class="skill-rarity"></div>
+        <div class="skill-label">GIT</div>
+        <div class="skill-selector"></div>
+      </div>
+
+    </div><!-- end track -->
+
+    <!-- Counter + dots -->
+    <div class="skills-counter">
+      <span class="skills-counter-num">01 / 07</span>
+      <div class="skills-dots"></div>
     </div>
 
-    <div class="skill-card red-accent reveal">
-      <span class="skill-icon">◈</span>
-      <div class="skill-name">DATA &amp; ANALYTICS</div>
-      <div class="skill-desc">End-to-end data pipelines — from raw cleaning and EDA through to statistical modelling and optimisation.</div>
-      <div class="skill-bar-wrap">
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">EDA</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.9"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">STAT MODEL</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.87"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">LINEAR ALG</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.92"></div></div>
-        </div>
-      </div>
+    <!-- Nav arrows -->
+    <div class="skills-nav">
+      <button class="skills-nav-btn" id="skill-prev" aria-label="Previous">&#9664;</button>
+      <button class="skills-nav-btn" id="skill-next" aria-label="Next">&#9654;</button>
     </div>
 
-    <div class="skill-card reveal">
-      <span class="skill-icon">⬟</span>
-      <div class="skill-name">SCIENTIFIC COMPUTING</div>
-      <div class="skill-desc">Numerical methods, mathematical modelling and high-performance computational problem solving.</div>
-      <div class="skill-bar-wrap">
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">NUM METHODS</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.9"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">OPTIMISATION</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">MODELLING</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.88"></div></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="skill-card red-accent reveal">
-      <span class="skill-icon">◉</span>
-      <div class="skill-name">BIG DATA &amp; DATABASES</div>
-      <div class="skill-desc">Relational database design, SQL querying, data normalisation and large-scale structured data management.</div>
-      <div class="skill-bar-wrap">
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">SQL / RDBMS</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">DATA MODEL</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.82"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">LARGE SCALE</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.75"></div></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="skill-card reveal">
-      <span class="skill-icon">⬢</span>
-      <div class="skill-name">SYSTEMS &amp; COMPUTING</div>
-      <div class="skill-desc">Deep knowledge of operating systems, concurrency, memory management, computer architecture and performance analysis.</div>
-      <div class="skill-bar-wrap">
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">OS CONCEPTS</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.83"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">CONCURRENCY</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.78"></div></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="skill-card red-accent reveal">
-      <span class="skill-icon">◆</span>
-      <div class="skill-name">SOFTWARE ENGINEERING</div>
-      <div class="skill-desc">Algorithm design, Big-O complexity analysis, debugging, version control with Git, software testing and system design.</div>
-      <div class="skill-bar-wrap">
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">ALGORITHMS</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.9"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">GIT</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.88"></div></div>
-        </div>
-        <div class="skill-bar-row">
-          <span class="skill-bar-label">SYS DESIGN</span>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.8"></div></div>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  </div><!-- end viewport -->
 </section>
 
 <!-- PROJECTS -->
@@ -295,67 +297,6 @@
     <div class="section-line"></div>
   </div>
   <div class="projects-grid">
-
-    <div class="project-card large reveal" onclick="window.location='projects/ml-research.html'" style="cursor:none;">
-      <div class="bg-text">01</div>
-      <a href="projects/ml-research.html" class="project-link">↗</a>
-      <div class="project-preview">
-        <div class="project-preview-inner">
-          <svg viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-            <rect width="560" height="200" fill="#040c14"/>
-            <!-- Grid lines -->
-            <line x1="0" y1="40" x2="560" y2="40" stroke="#00f5ff" stroke-width="0.3" opacity="0.15"/>
-            <line x1="0" y1="80" x2="560" y2="80" stroke="#00f5ff" stroke-width="0.3" opacity="0.15"/>
-            <line x1="0" y1="120" x2="560" y2="120" stroke="#00f5ff" stroke-width="0.3" opacity="0.15"/>
-            <line x1="0" y1="160" x2="560" y2="160" stroke="#00f5ff" stroke-width="0.3" opacity="0.15"/>
-            <line x1="80" y1="0" x2="80" y2="200" stroke="#00f5ff" stroke-width="0.3" opacity="0.1"/>
-            <line x1="160" y1="0" x2="160" y2="200" stroke="#00f5ff" stroke-width="0.3" opacity="0.1"/>
-            <line x1="240" y1="0" x2="240" y2="200" stroke="#00f5ff" stroke-width="0.3" opacity="0.1"/>
-            <line x1="320" y1="0" x2="320" y2="200" stroke="#00f5ff" stroke-width="0.3" opacity="0.1"/>
-            <line x1="400" y1="0" x2="400" y2="200" stroke="#00f5ff" stroke-width="0.3" opacity="0.1"/>
-            <line x1="480" y1="0" x2="480" y2="200" stroke="#00f5ff" stroke-width="0.3" opacity="0.1"/>
-            <!-- ECG/vitals line -->
-            <polyline points="0,110 30,110 40,60 50,150 60,110 100,110 110,90 120,130 130,110 180,110 185,50 192,160 198,110 260,110 265,75 272,145 278,110 340,110 350,85 358,135 365,110 420,110 428,70 436,148 443,110 500,110 508,88 516,130 524,110 560,110"
-              fill="none" stroke="#00f5ff" stroke-width="1.8" opacity="0.9"/>
-            <!-- Danger threshold line -->
-            <line x1="0" y1="72" x2="560" y2="72" stroke="#ff003c" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
-            <text x="8" y="68" font-family="monospace" font-size="8" fill="#ff003c" opacity="0.7">ALERT THRESHOLD</text>
-            <!-- Sidebar panel -->
-            <rect x="0" y="0" width="68" height="200" fill="#060d18" opacity="0.85"/>
-            <text x="8" y="18" font-family="monospace" font-size="7" fill="#00f5ff" opacity="0.6">VITALS</text>
-            <rect x="6" y="24" width="56" height="14" rx="1" fill="#0a2030"/>
-            <text x="10" y="34" font-family="monospace" font-size="7" fill="#00ff88">HR 78bpm</text>
-            <rect x="6" y="42" width="56" height="14" rx="1" fill="#0a2030"/>
-            <text x="10" y="52" font-family="monospace" font-size="7" fill="#00f5ff">SpO2 96%</text>
-            <rect x="6" y="60" width="56" height="14" rx="1" fill="#1a0810"/>
-            <text x="10" y="70" font-family="monospace" font-size="7" fill="#ff003c">BP 145/92</text>
-            <rect x="6" y="78" width="56" height="14" rx="1" fill="#0a2030"/>
-            <text x="10" y="88" font-family="monospace" font-size="7" fill="#00f5ff">RR 18/min</text>
-            <!-- Top bar -->
-            <rect x="0" y="0" width="560" height="14" fill="#040c14"/>
-            <text x="76" y="10" font-family="monospace" font-size="7" fill="#00f5ff" opacity="0.5">ICU_EARLY_WARNING_SYSTEM // PATIENT_04 // MONITORING ACTIVE</text>
-            <circle cx="546" cy="7" r="3" fill="#00ff88" opacity="0.9"/>
-            <!-- Prediction band -->
-            <rect x="440" y="40" width="120" height="120" fill="#ff003c" opacity="0.04"/>
-            <text x="448" y="175" font-family="monospace" font-size="7" fill="#ff003c" opacity="0.6">PREDICTION WINDOW</text>
-          </svg>
-        </div>
-        <div class="preview-label">LIVE_MONITOR // PATIENT_04</div>
-      </div>
-      <div class="project-num">PROJECT_01 // HONOURS RESEARCH</div>
-      <div class="project-tag">
-        <span>ML</span><span>//</span><span>TIME-SERIES</span><span>//</span><span>HEALTHCARE</span>
-      </div>
-      <h3 class="project-title">ICU EARLY WARNING<br>SYSTEM</h3>
-      <p class="project-desc">Honours research project evaluating Time-Series Foundation Models for Early Warning in Intensive Care Units. Applying state-of-the-art ML architectures to critical clinical data streams to predict patient deterioration before it occurs.</p>
-      <div class="project-tech">
-        <span class="tech-tag">PYTHON</span>
-        <span class="tech-tag">TIME-SERIES</span>
-        <span class="tech-tag">FOUNDATION MODELS</span>
-        <span class="tech-tag">STATISTICAL ML</span>
-      </div>
-    </div>
-
     <div class="project-card medium red reveal" onclick="window.location='projects/fullstack.html'" style="cursor:none;">
       <a href="projects/fullstack.html" class="project-link">↗</a>
       <div class="project-preview">
@@ -397,9 +338,9 @@
         </div>
         <div class="preview-label">FUTURE_INTERNS // APR–MAY 2026</div>
       </div>
-      <div class="project-num">PROJECT_02</div>
+      <div class="project-num">PROJECT_01</div>
       <div class="project-tag"><span>WEB DEV</span><span>//</span><span>INTERNSHIP</span></div>
-      <h3 class="project-title">FULL STACK WEB<br>DEVELOPMENT</h3>
+      <h3 class="project-title">FULL STACK WEB<br>DEVELOPMENT PROJECTS</h3>
       <p class="project-desc">Building and deploying full stack web applications as part of the Future Interns internship programme. Developing end-to-end solutions across frontend interfaces and backend systems.</p>
       <div class="project-tech">
         <span class="tech-tag">HTML/CSS</span>
@@ -465,9 +406,9 @@
         </div>
         <div class="preview-label">EDA_SUITE // 12,847 RECORDS</div>
       </div>
-      <div class="project-num">PROJECT_03</div>
+      <div class="project-num">PROJECT_02</div>
       <div class="project-tag"><span>DATA</span><span>//</span><span>ANALYTICS</span></div>
-      <h3 class="project-title">EXPLORATORY DATA<br>ANALYSIS SUITE</h3>
+      <h3 class="project-title">DATA<br>SCIENCE PROJECTS</h3>
       <p class="project-desc">Comprehensive EDA pipelines built in Python for cleaning, preprocessing and visualising complex datasets — applying statistical modelling and probability techniques to extract actionable insights.</p>
       <div class="project-tech">
         <span class="tech-tag">PYTHON</span>
@@ -551,10 +492,10 @@
       Whether it's a research collaboration, a graduate role, or just a conversation about data — the uplink is open.
     </p>
     <div class="contact-links reveal">
-      <a href="/cdn-cgi/l/email-protection#6e1a060f1a015c5e5e5b0005011d072e09030f0702400d0103" class="contact-link"><span>✉ EMAIL UPLINK</span></a>
+      <a href="" class="contact-link"><span>✉ thato2005nkosi@gmail.com</span></a>
       <a href="tel:+27681581984" class="contact-link"><span>☏ +27 68 158 1984</span></a>
-      <a href="https://linkedin.com" class="contact-link"><span>⬡ LINKEDIN</span></a>
-      <a href="https://github.com" class="contact-link"><span>◈ GITHUB</span></a>
+      <a href="https://linkedin.com/in/thato-nkosi-0a5530346/" class="contact-link"><span>⬡ LINKEDIN</span></a>
+      <a href="https://github.com/thatonkosi26/" class="contact-link"><span>◈ GITHUB</span></a>
     </div>
   </div>
 </section>
@@ -566,8 +507,8 @@
 </footer>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-  // ── THEME TOGGLE ────────────────────────────────────
-  const themeCheckbox = document.getElementById('theme-checkbox');
+ // ── THEME TOGGLE ────────────────────────────────────
+ const themeCheckbox = document.getElementById('theme-checkbox');
   const html = document.documentElement;
 
   // Restore saved preference
@@ -715,8 +656,143 @@
   }, { threshold: 0.5 });
   statNums.forEach(n => statObs.observe(n));
 
+  // ── SKILLS STACKED DECK ────────────────────────────────
+  (function() {
+    const items = Array.from(document.querySelectorAll('#skills-track .skill-item'));
+    if (!items.length) return;
+
+    const total = items.length;
+    let current = 0;
+    let autoTimer = null;
+    let isHovered = false;
+
+    // Give each card a data-index badge
+    items.forEach((el, i) => el.setAttribute('data-index', String(i + 1).padStart(2, '0')));
+
+    // Build dots
+    const dotsWrap = document.querySelector('.skills-dots');
+    const counterEl = document.querySelector('.skills-counter-num');
+    if (dotsWrap) {
+      items.forEach((_, i) => {
+        const d = document.createElement('div');
+        d.className = 'skills-dot' + (i === 0 ? ' active' : '');
+        d.addEventListener('click', () => goTo(i));
+        dotsWrap.appendChild(d);
+      });
+    }
+
+    function updateDots() {
+      document.querySelectorAll('.skills-dot').forEach((d, i) => {
+        d.classList.toggle('active', i === current);
+      });
+      if (counterEl) counterEl.textContent =
+        String(current + 1).padStart(2, '0') + ' / ' + String(total).padStart(2, '0');
+    }
+
+    function getTransform(offset) {
+      // offset: 0 = active (front), 1 = next behind, 2 = further behind, negative = departing
+      if (offset === 0) {
+        // front card — centre, full scale
+        return { tx: 0, ty: 0, tz: 0, rx: 0, ry: 0, scale: 1, opacity: 1, z: total };
+      }
+      if (offset > 0 && offset <= 4) {
+        // stacked behind — shift right + down, shrink, slight rotate
+        const t = offset;
+        return {
+          tx: t * 22,
+          ty: t * 12,
+          tz: -t * 40,
+          rx: -t * 2,
+          ry: t * 5,
+          scale: 1 - t * 0.07,
+          opacity: 1 - t * 0.18,
+          z: total - t
+        };
+      }
+      // cards not in visible stack — hidden below
+      return { tx: 0, ty: 60, tz: -300, rx: 0, ry: 0, scale: 0.6, opacity: 0, z: 0 };
+    }
+
+    function applyLayouts(animated) {
+      items.forEach((el, i) => {
+        // Calculate offset in deck (wrapping)
+        let offset = (i - current + total) % total;
+
+        const { tx, ty, tz, rx, ry, scale, opacity, z } = getTransform(offset);
+
+        el.style.transition = animated
+          ? 'transform 0.75s cubic-bezier(0.34,1.56,0.64,1), opacity 0.5s ease, z-index 0s'
+          : 'none';
+        el.style.transform =
+          `translate3d(${tx}px, ${ty}px, ${tz}px) rotateX(${rx}deg) rotateY(${ry}deg) scale(${scale})`;
+        el.style.opacity  = opacity;
+        el.style.zIndex   = z;
+        el.classList.toggle('is-active', offset === 0);
+      });
+      updateDots();
+    }
+
+    function goTo(idx, animated = true) {
+      current = ((idx % total) + total) % total;
+      applyLayouts(animated);
+    }
+
+    function next() { goTo(current + 1); }
+    function prev() { goTo(current - 1); }
+
+    // Non-linear easing auto-cycle with variable delays
+    const delays = [3200, 2400, 3800, 2800, 3500, 2600, 4000, 3000, 2200, 3600];
+    let delayIdx = 0;
+
+    function scheduleNext() {
+      clearTimeout(autoTimer);
+      if (isHovered) return;
+      const delay = delays[delayIdx % delays.length];
+      delayIdx++;
+      autoTimer = setTimeout(() => {
+        next();
+        scheduleNext();
+      }, delay);
+    }
+
+    // Pause on hover
+    const vp = document.getElementById('skills-viewport');
+    if (vp) {
+      vp.addEventListener('mouseenter', () => { isHovered = true; clearTimeout(autoTimer); });
+      vp.addEventListener('mouseleave', () => { isHovered = false; scheduleNext(); });
+    }
+
+    // Click on background cards to bring forward
+    items.forEach((el, i) => {
+      el.addEventListener('click', () => {
+        if (i !== current) {
+          goTo(i);
+          scheduleNext();
+        }
+      });
+    });
+
+    // Nav buttons
+    document.getElementById('skill-prev')?.addEventListener('click', () => { prev(); scheduleNext(); });
+    document.getElementById('skill-next')?.addEventListener('click', () => { next(); scheduleNext(); });
+
+    // Touch / swipe on viewport
+    let touchX0 = 0;
+    if (vp) {
+      vp.addEventListener('touchstart', e => { touchX0 = e.touches[0].clientX; }, { passive: true });
+      vp.addEventListener('touchend',   e => {
+        const dx = e.changedTouches[0].clientX - touchX0;
+        if (Math.abs(dx) > 40) { dx < 0 ? next() : prev(); scheduleNext(); }
+      });
+    }
+
+    // Init
+    applyLayouts(false);
+    scheduleNext();
+  })();
+
   // ── CARD TILT ───────────────────────────────────────────
-  document.querySelectorAll('.project-card, .skill-card').forEach(card => {
+  document.querySelectorAll('.project-card').forEach(card => {
     card.addEventListener('mousemove', e => {
       const r = card.getBoundingClientRect();
       const x = (e.clientX - r.left) / r.width - 0.5;
